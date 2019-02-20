@@ -1,6 +1,11 @@
 object Application {
 
-  // write your function here
+  def calculateBonus(i: Int, bool: Boolean) : Int = {
+    if (bool==true){
+      (i*1.2).toInt
+    }
+    else i
+  }
 
 
   def main(args : Array[String]) : Unit = {
